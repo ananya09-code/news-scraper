@@ -1,0 +1,167 @@
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+
+# Environment & Secrets
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# IDE / Editors
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+
+# OS
+
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+
+# Testing / Coverage
+
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+
+# Type checking / Linters
+
+# =========================
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+logs/
+
+# =========================
+
+# Local database / data
+
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Scraper output / temporary data
+
+data/raw/
+data/tmp/
+tmp/
+temp/
+
+# JSON exports from scraping
+
+# Remove these lines if you intentionally want
+
+# to version specific JSON datasets.
+
+*.json
+
+# =========================
+
+# Alembic
+
+# =========================
+
+# Keep migrations tracked!
+
+# DO NOT ignore alembic/versions/
+
+# =========================
+
+# Jupyter
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# uv
+
+# =========================
+
+# Keep uv.lock tracked for applications.
+
+# uv.lock should NOT be ignored.
+
+# =========================
+
+# Project-specific
+
+# =========================
+
+# Apify / scraper secrets
+
+.apify/
+apify.json
+
+# API keys / credentials
+
+credentials/
+secrets/
+
+# Generated files
+
+generated/
+output/
+.cache/
+EOF
+
