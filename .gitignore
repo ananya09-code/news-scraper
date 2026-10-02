@@ -35,6 +35,10 @@ build/
 .env.*
 !.env.example
 
+# Common typo of .env - never commit, it looks identical and holds the same secrets
+.evn
+.evn.*
+
 # =========================
 
 # IDE / Editors
